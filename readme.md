@@ -1,1 +1,1 @@
-I did this assignment in Mac. I currently have working pawns knights kings bishops and rooks.
+I did this assignment in Mac. I currently have all pieces moving properly, and have yet to implement pawn promotion, castling, and en pessant. 

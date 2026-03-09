@@ -50,6 +50,7 @@ public:
     void generateKnightMoves(std::vector<BitMove>& moves, Bitboard knightBitboard, uint64_t friendlies);
     void generateKingMoves(std::vector<BitMove>& moves, Bitboard knightBitboard, uint64_t friendlies);
     void generateBishopMoves(std::vector<BitMove>& moves, Bitboard knightBitboard, uint64_t occupancy, uint64_t friendlies);
+    void generateQueenMoves(std::vector<BitMove>& moves, Bitboard knightBitboard, uint64_t occupancy, uint64_t friendlies);
     void generateRookMoves(std::vector<BitMove>& moves, Bitboard knightBitboard, uint64_t occupancy, uint64_t friendlies);
     void generatePawnMoves(std::vector<BitMove>& moves, const Bitboard pawns, const Bitboard emptySquares, const Bitboard enemyPieces, char color);
     void addPawnBitboardMovesToList(std::vector<BitMove>& moves, const Bitboard bitboard, const int shift);
